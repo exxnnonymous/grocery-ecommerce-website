@@ -1,0 +1,32 @@
+.main-products-item {
+  width: 100%;
+  margin: 10px 0 20px;
+}
+
+.main-product-content {
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+}
+.main-product-content .main-product-image {
+  margin-right: 25px;
+}
+.main-product-content .main-product-image img {
+}
+.main-product-content .main-product-info {
+  padding-top: 10px;
+}
+
+.main-product-content .main-product-info h5,
+h6 {
+  color: #111;
+}
+
+.main-product-content .main-product-info h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.main-product-content .main-product-info h6 {
+  font-size: 17px;
+  font-weight: 800;
+}

@@ -1,0 +1,35 @@
+.products-slider {
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+
+.products-container {
+}
+
+.products-container .owl-nav {
+}
+.products-container .owl-carousel .owl-nav button {
+  font-size: 28px;
+  color: #1c1c1c;
+  height: 70px;
+  width: 30px;
+  line-height: 70px;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-60%);
+  background: #ffffff;
+  transition: all 0.3s;
+}
+.products-container .owl-carousel .owl-nav button:hover {
+  color: #fff;
+  background: var(--green);
+}
+.products-container .owl-nav .owl-prev {
+  left: -40px;
+}
+.products-container .owl-nav .owl-next {
+  right: -40px;
+}

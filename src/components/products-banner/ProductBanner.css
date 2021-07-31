@@ -1,0 +1,11 @@
+.products-banner-section {
+  width: 100%;
+  background: #fff;
+}
+
+.product-banner-row {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+}

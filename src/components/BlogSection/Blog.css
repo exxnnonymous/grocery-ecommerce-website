@@ -1,0 +1,29 @@
+.blog-section {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.blog-container {
+}
+.blog-container h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1c1c1c;
+}
+.blog-container h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 5px;
+  width: 90px;
+  background-color: var(--green);
+}
+.blog-section .blog-row {
+  display: flex;
+}

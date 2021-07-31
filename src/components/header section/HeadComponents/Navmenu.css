@@ -1,0 +1,33 @@
+.nav-menu {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-left: 11px;
+}
+.nav-menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 3px 5px;
+  transition: all 0.3s;
+}
+
+.nav-menu ul li.active a {
+  color: var(--hover-green);
+}
+.nav-menu ul li a:hover {
+  color: var(--hover-green);
+}

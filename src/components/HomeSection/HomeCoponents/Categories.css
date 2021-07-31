@@ -1,0 +1,73 @@
+.categories-head {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background: var(--green);
+  position: relative;
+  padding: 10px 0 10px 40px;
+  cursor: pointer;
+  color: #fff;
+}
+.categories-head:hover {
+  background: var(--hover-green);
+}
+
+.categories-head i {
+  margin-right: 20px;
+}
+
+.categories-head span {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.categories-head span::before {
+  content: "\f078";
+  font-weight: 900;
+  font-size: 14px;
+  font-family: "Font Awesome 5 Free";
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -30px;
+}
+
+.categories-list {
+  border: 1px solid #ebebeb;
+  border-top: none;
+  padding: 10px 0 10px 40px;
+  height: 465px;
+  overflow: hidden;
+  pointer-events: none;
+  transition: all 0.35s ease-in-out;
+}
+
+.animated-categories {
+  pointer-events: all;
+  transition: all 0.35s ease-in-out;
+}
+
+.categories-list li {
+  list-style: none;
+  display: block;
+  height: 40px;
+}
+
+.categories-list li a {
+  text-decoration: none;
+  display: block;
+  color: #111;
+  font-size: 16px;
+  line-height: 40px;
+  transition: all 0.3s;
+}
+.categories-list li a:hover {
+  color: var(--green);
+}

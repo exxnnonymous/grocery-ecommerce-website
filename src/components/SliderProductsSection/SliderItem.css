@@ -1,0 +1,36 @@
+.slider-item {
+  width: 100%;
+  position: relative;
+  height: 270px;
+  background-position: center;
+}
+
+.slider-item h1 {
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.slider-item h1 a {
+  padding: 10px;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.slider-item h1:hover {
+  background-color: var(--green);
+}
+.slider-item h1:hover a {
+  color: #fff;
+}

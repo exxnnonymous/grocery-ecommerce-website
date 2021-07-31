@@ -1,0 +1,25 @@
+.home {
+  width: 100%;
+  height: 550px;
+  margin-top: 5px;
+}
+
+.home-container {
+  height: 100%;
+}
+
+.home .row {
+  display: flex;
+  height: 100%;
+}
+
+.home .col-left {
+  flex: 0 0 25%;
+  padding-right: 15px;
+  max-width: 25%;
+}
+.home .col-right {
+  flex: 0 0 75%;
+  padding-left: 15px;
+  max-width: 75%;
+}

@@ -1,0 +1,103 @@
+.head {
+  background: #f5f5f5;
+  color: #212529;
+  width: 100%;
+  font-size: 14px;
+}
+
+.head-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px !important;
+}
+
+.head .col {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.head .col-left p {
+  margin-right: 25px;
+  position: relative;
+}
+.head .col-left p i {
+  margin-right: 5px;
+}
+
+.head .col-left p:nth-child(1)::after {
+  position: absolute;
+  right: -15px;
+  top: 0px;
+  height: 20px;
+  width: 1px;
+  background: #000;
+  opacity: 0.2;
+  content: "";
+}
+
+.head .col-right {
+  justify-content: flex-end;
+}
+
+.social-links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  position: relative;
+}
+.social-links-container::after {
+  position: absolute;
+  right: -25px;
+  top: 0px;
+  height: 20px;
+  width: 1px;
+  background: #000;
+  opacity: 0.2;
+  content: "";
+}
+.social-links-container li {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #111;
+  padding: 0 5px;
+}
+.social-links-container li:hover {
+  color: var(--hover-green);
+}
+.choose-language {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.choose-language::after {
+  position: absolute;
+  right: -25px;
+  top: 0px;
+  height: 20px;
+  width: 1px;
+  background: #000;
+  opacity: 0.2;
+  content: "";
+}
+.choose-language img {
+  width: 27px;
+  margin-right: 10px;
+  cursor: default;
+}
+.choose-language i {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.login {
+  cursor: pointer;
+  margin-left: 50px;
+}
+.login i {
+  margin-right: 8px;
+  font-size: 12px;
+}

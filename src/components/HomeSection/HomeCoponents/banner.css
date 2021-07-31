@@ -1,0 +1,56 @@
+.banner {
+  width: 100%;
+  height: 450px;
+}
+
+.banner-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  padding-left: 70px;
+}
+.banner-content span {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--green);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.banner-content h1 {
+  margin: 10px 0;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 52px;
+  color: #252525;
+}
+.banner-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+  margin-bottom: 35px;
+}
+.banner-content .shopnow {
+  font-size: 14px;
+  color: #fff;
+  background: var(--green);
+  height: 40px;
+  padding: 10px 28px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+}
+.banner-content .shopnow:hover {
+  color: var(--green);
+  background: #fff;
+  border: 2px solid var(--green);
+}

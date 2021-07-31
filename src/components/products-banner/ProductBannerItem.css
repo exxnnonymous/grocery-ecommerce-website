@@ -1,0 +1,8 @@
+.product-banner-item {
+  flex: 0 0 50%;
+  padding: 0 10px;
+}
+
+.product-banner-item img {
+  width: 100%;
+}
